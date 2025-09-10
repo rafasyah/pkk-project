@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Desain Web untuk Usaha</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-50 text-gray-800">
+
+  <!-- Navbar -->
+  <nav class="bg-white shadow sticky top-0 z-50">
+    <div class="max-w-7xl mx-auto flex justify-between items-center px-6 py-4">
+      <h1 class="text-2xl font-bold text-blue-600">WebUsaha</h1>
+      <ul class="hidden md:flex space-x-6 text-gray-700">
+        <li><a href="#layanan" class="hover:text-blue-600">Layanan</a></li>
+        <li><a href="#portfolio" class="hover:text-blue-600">Portfolio</a></li>
+        <li><a href="#kontak" class="hover:text-blue-600">Kontak</a></li>
+      </ul>
+      <a href="#kontak" class="bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700">Hubungi Kami</a>
+    </div>
+  </nav>
+
+<!-- Hero -->
+<section class="relative text-center py-32 bg-cover bg-center bg-no-repeat" 
+         style="background-image: url('pexels-divinetechygirl-1181271.jpg');">
+  <!-- Overlay gelap biar teks lebih jelas -->
+  <div class="absolute inset-0 bg-black/50"></div>
+  
+  <div class="relative z-10 max-w-3xl mx-auto text-white">
+    <h2 class="text-4xl md:text-5xl font-extrabold mb-6">
+      Buat Website Profesional untuk Usaha Anda
+    </h2>
+    <p class="text-lg max-w-2xl mx-auto mb-8">
+      Kami membantu UMKM, startup, dan bisnis Anda tampil online dengan desain modern, cepat, dan terjangkau.
+    </p>
+    <a href="#layanan" class="bg-blue-600 text-white px-6 py-3 rounded-xl shadow hover:bg-blue-700">
+      Lihat Layanan
+    </a>
+  </div>
+</section>
+
+
+  <!-- Layanan -->
+  <section id="layanan" class="max-w-7xl mx-auto px-6 py-16">
+    <h3 class="text-3xl font-bold text-center mb-12">Layanan Kami</h3>
+    <div class="grid md:grid-cols-3 gap-8">
+      <div class="bg-white shadow rounded-2xl p-6 text-center hover:shadow-lg transition">
+        <h4 class="text-xl font-semibold mb-4">Website Company Profile</h4>
+        <p class="text-gray-600 mb-4">Tingkatkan kepercayaan pelanggan dengan website profesional untuk usaha Anda.</p>
+      </div>
+      <div class="bg-white shadow rounded-2xl p-6 text-center hover:shadow-lg transition">
+        <h4 class="text-xl font-semibold mb-4">Toko Online</h4>
+        <p class="text-gray-600 mb-4">Jual produk lebih mudah dengan sistem e-commerce yang cepat dan aman.</p>
+      </div>
+      <div class="bg-white shadow rounded-2xl p-6 text-center hover:shadow-lg transition">
+        <h4 class="text-xl font-semibold mb-4">Landing Page</h4>
+        <p class="text-gray-600 mb-4">Cocok untuk promosi produk/jasa dengan desain modern dan fokus pada konversi.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Portfolio -->
+  <section id="portfolio" class="bg-gray-100 py-16">
+    <div class="max-w-7xl mx-auto px-6">
+      <h3 class="text-3xl font-bold text-center mb-12">Portfolio</h3>
+      <div class="grid md:grid-cols-3 gap-8">
+        <div class="bg-white rounded-xl shadow hover:shadow-lg transition">
+          <img src="item-1.png" alt="Project 1" class="rounded-t-xl">
+          <div class="p-4">
+            <h4 class="font-semibold">Website Techeduca</h4>
+          </div>
+        </div>        <div class="bg-white rounded-xl shadow hover:shadow-lg transition">
+          <img src="item-3.png" alt="Project 3" class="rounded-t-xl">
+          <div class="p-4">
+            <h4 class="font-semibold">Landing Page App</h4>
+          </div>
+        </div>
+        <div class="bg-white rounded-xl shadow hover:shadow-lg transition">
+          <img src="item-2.png" alt="Project 2" class="rounded-t-xl">
+          <div class="p-4">
+            <h4 class="font-semibold">Wedding Landing Page</h4>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Kontak -->
+  <section id="kontak" class="max-w-7xl mx-auto px-6 py-16">
+    <h3 class="text-3xl font-bold text-center mb-8">Hubungi Kami</h3>
+    <form class="max-w-2xl mx-auto bg-white p-8 rounded-2xl shadow space-y-6">
+      <input type="text" placeholder="Nama Anda" class="w-full p-3 border rounded-lg">
+      <input type="email" placeholder="Email Anda" class="w-full p-3 border rounded-lg">
+      <textarea placeholder="Pesan Anda" rows="4" class="w-full p-3 border rounded-lg"></textarea>
+      <button type="submit" class="bg-blue-600 text-white px-6 py-3 rounded-xl hover:bg-blue-700">
+        Kirim Pesan
+      </button>
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-gray-900 text-white py-6 text-center">
+    <p>© 2025 WebUsaha. Semua Hak Dilindungi.</p>
+  </footer>
+
+</body>
+</html>
